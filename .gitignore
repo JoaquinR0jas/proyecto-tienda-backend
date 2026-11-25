@@ -1,0 +1,39 @@
+target/
+*.class
+*.jar
+*.war
+*.log
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.vscode/
+.DS_Store
+HELP.md
+*.pdf
+*.code-workspace
+.mvn/wrapper/maven-wrapper.jar
+
+# Carpetas de documentación externa (se sube a Drive)
+FULLSTACK/
+
+# Ejecutables / binarios (se suben a Drive)
+*.bat
+*.mp4
+*.docx
+*.doc
+# ojo: los arrancadores SI se suben, por eso se exceptuan aqui:
+!iniciar-todo.bat
+!detener-todo.bat
+
+# Python (carpetas de cache que solo ensucian el repo)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Maven Wrapper redundante en submódulos (solo raíz es necesaria)
+*/mvnw
+*/mvnw.cmd
